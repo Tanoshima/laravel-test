@@ -20,10 +20,10 @@ composer create-project laravel/laravel example-app
 ```
 
 
-### phpパッケージのインストール
+### phpパッケージのインストール(laravelインストール後に環境構築する場合)
 
 ```
-$ cd web/docker
+$ cd docker
 $ docker-compose run --rm backend composer install
 ```
 
@@ -36,5 +36,5 @@ laravelとMysqlを起動する
 ```
 $ cd web/docker
 $ docker-compose up backend
-$ docker-compose up db
+$ docker-compose up database
 ```
