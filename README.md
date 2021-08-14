@@ -34,7 +34,7 @@ $ docker-compose run --rm backend composer install
 laravelとMysqlを起動する
 
 ```
-$ cd web/docker
+$ cd docker
 $ docker-compose up backend
 $ docker-compose up database
 ```
